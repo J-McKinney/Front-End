@@ -3,18 +3,10 @@ import MyNavBar from "./Components/MyNavBar/MyNavBar";
 import logo from "./logo.svg";
 import "./App.css";
 
-const navlinks = [
-  { name: "Home", to: "#/" },
-  { name: "About", to: "#/about" },
-  { name: "Contact", to: "#/contact" },
-];
-
-const brand = { name: "Jesse McKinney", to: "/" };
-
 function App() {
   return (
     <div className="App">
-      <MyNavBar brand={brand} links={navlinks} />
+      <MyNavBar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

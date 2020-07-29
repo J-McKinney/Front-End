@@ -5,10 +5,6 @@ import Col from "react-bootstrap/Col";
 import "./MyFooter.css";
 
 class MyFooter extends Component {
-  componentDidMount() {
-    console.log("Hello-World");
-  }
-
   render() {
     return (
       <>

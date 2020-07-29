@@ -1,12 +1,13 @@
 import React from "react";
-import MyNavBar from "./Components/MyNavBar/MyNavBar";
+// import MyNavBar from "./Components/MyNavBar/MyNavBar";
+// import MyCarousel from "./Components/MyCarousel/MyCarousel";
+import MyFooter from "./Components/MyFooter/MyFooter";
 import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <MyNavBar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -35,6 +36,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <MyFooter />
     </div>
   );
 }

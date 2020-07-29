@@ -16,17 +16,21 @@ ul {
   list-style: none;
 }
 
-li {
+.footerUL {
+  list-style: none;
+}
+
+.footerLI {
   padding-top: 10px;
 }
 
-h5 {
+.footerH5 {
   font-weight: bold;
   font-style: italic;
   color: #282c34;
 }
 
-a {
+.bottomFooterLinks {
   color: #282c34;
   position: relative;
 }

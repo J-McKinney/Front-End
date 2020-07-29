@@ -11,30 +11,30 @@ class MyFooter extends Component {
         <Container className="sliderFooter">
           <Row>
             <Col>
-              <ul>
-                <li>
-                  <h5>
+              <ul className="footerUL">
+                <li className="footerLI">
+                  <h5 className="footerH5">
                     <a className="bottomFooterLinks" href="#/action-1">
                       The World Of React 1
                     </a>
                   </h5>
                 </li>
                 <li>
-                  <h5>
+                  <h5 className="footerH5">
                     <a className="bottomFooterLinks" href="#/action-2">
                       The World Of React 2
                     </a>
                   </h5>
                 </li>
                 <li>
-                  <h5>
+                  <h5 className="footerH5">
                     <a className="bottomFooterLinks" href="#/action-3">
                       The World Of React 3
                     </a>
                   </h5>
                 </li>
                 <li>
-                  <h5>
+                  <h5 className="footerH5">
                     <a className="bottomFooterLinks" href="#/action-4">
                       The World Of React 4
                     </a>
@@ -45,28 +45,28 @@ class MyFooter extends Component {
             <Col>
               <ul>
                 <li>
-                  <h5>
+                  <h5 className="footerH5">
                     <a className="bottomFooterLinks" href="#/action-5">
                       The World Of React 5
                     </a>
                   </h5>
                 </li>
                 <li>
-                  <h5>
+                  <h5 className="footerH5">
                     <a className="bottomFooterLinks" href="#/action-6">
                       The World Of React 6
                     </a>
                   </h5>
                 </li>
                 <li>
-                  <h5>
+                  <h5 className="footerH5">
                     <a className="bottomFooterLinks" href="#/action-7">
                       The World Of React 7
                     </a>
                   </h5>
                 </li>
                 <li>
-                  <h5>
+                  <h5 className="footerH5">
                     <a className="bottomFooterLinks" href="#/action-8">
                       The World Of React 8
                     </a>
@@ -77,28 +77,28 @@ class MyFooter extends Component {
             <Col>
               <ul>
                 <li>
-                  <h5>
+                  <h5 className="footerH5">
                     <a className="bottomFooterLinks" href="#/action-9">
                       The World Of React 9
                     </a>
                   </h5>
                 </li>
                 <li>
-                  <h5>
+                  <h5 className="footerH5">
                     <a className="bottomFooterLinks" href="#/action-10">
                       The World Of React 10
                     </a>
                   </h5>
                 </li>
                 <li>
-                  <h5>
+                  <h5 className="footerH5">
                     <a className="bottomFooterLinks" href="#/action-11">
                       The World Of React 11
                     </a>
                   </h5>
                 </li>
                 <li>
-                  <h5>
+                  <h5 className="footerH5">
                     <a className="bottomFooterLinks" href="#/action-12">
                       The World Of React 12
                     </a>

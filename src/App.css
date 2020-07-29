@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  /*Slider Footer*/
+  position: relative;
+  z-index: 1;
 }
 
 .App-logo {

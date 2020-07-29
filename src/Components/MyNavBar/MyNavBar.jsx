@@ -137,6 +137,9 @@ class MyNavBar extends Component {
           <Container>
             <Row>
               <Col>
+                <h3 className="navBarMyName">Jesse McKinney</h3>
+              </Col>
+              <Col>
                 <Button
                   className={this.state.changeNavBar ? "change" : ""}
                   id="collapsingNavBarButton"

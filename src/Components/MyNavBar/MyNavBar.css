@@ -15,25 +15,25 @@
   background-color: #282c34;
 }
 
-ul {
+.navBarUL {
   list-style: none;
   background-color: #282c34;
 }
 
-li {
+.navBarLI {
   padding-top: 10px;
   padding-bottom: 2%;
   background-color: #282c34;
 }
 
-h5 {
+.navBarH5 {
   font-weight: bold;
   font-style: italic;
   color: #61dafb;
   background-color: #282c34;
 }
 
-a {
+.navBarATag {
   color: #61dafb;
 }
 

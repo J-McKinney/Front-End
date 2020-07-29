@@ -1,7 +1,7 @@
 import React from "react";
 import MyNavBar from "./Components/MyNavBar/MyNavBar";
 // import MyCarousel from "./Components/MyCarousel/MyCarousel";
-// import MyFooter from "./Components/MyFooter/MyFooter";
+import MyFooter from "./Components/MyFooter/MyFooter";
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -26,6 +26,7 @@ function App() {
         </a>
       </header>
       {/*Slider Footer*/}
+      <MyFooter />
       {/*Slider Footer*/}
     </div>
   );

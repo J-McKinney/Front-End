@@ -34,31 +34,31 @@ class MyNavBar extends Component {
               <div id="example-collapse-text" className="collapsingContent">
                 <Row>
                   <Col>
-                    <ul className="ul">
-                      <li className="li">
-                        <h5 className="h5">
-                          <a className="a" href="#/action-1">
+                    <ul className="navBarUL">
+                      <li className="navBarLI">
+                        <h5 className="navBarH5">
+                          <a className="navBarATag" href="#/action-1">
                             The World Of React 1
                           </a>
                         </h5>
                       </li>
-                      <li className="li">
-                        <h5 className="h5">
-                          <a className="a" href="#/action-2">
+                      <li className="navBarLI">
+                        <h5 className="navBarH5">
+                          <a className="navBarATag" href="#/action-2">
                             The World Of React 2
                           </a>
                         </h5>
                       </li>
-                      <li className="li">
-                        <h5 className="h5">
-                          <a className="a" href="#/action-3">
+                      <li className="navBarLI">
+                        <h5 className="navBarH5">
+                          <a className="navBarATag" href="#/action-3">
                             The World Of React 3
                           </a>
                         </h5>
                       </li>
-                      <li className="li">
-                        <h5 className="h5">
-                          <a className="a" href="#/action-4">
+                      <li className="navBarLI">
+                        <h5 className="navBarH5">
+                          <a className="navBarATag" href="#/action-4">
                             The World Of React 4
                           </a>
                         </h5>
@@ -67,30 +67,30 @@ class MyNavBar extends Component {
                   </Col>
                   <Col>
                     <ul>
-                      <li className="li">
-                        <h5 className="h5">
-                          <a className="a" href="#/action-5">
+                      <li className="navBarLI">
+                        <h5 className="navBarH5">
+                          <a className="navBarATag" href="#/action-5">
                             The World Of React 5
                           </a>
                         </h5>
                       </li>
-                      <li className="li">
-                        <h5 className="h5">
-                          <a className="a" href="#/action-6">
+                      <li className="navBarLI">
+                        <h5 className="navBarH5">
+                          <a className="navBarATag" href="#/action-6">
                             The World Of React 6
                           </a>
                         </h5>
                       </li>
-                      <li className="li">
-                        <h5 className="h5">
-                          <a className="a" href="#/action-7">
+                      <li className="navBarLI">
+                        <h5 className="navBarH5">
+                          <a className="navBarATag" href="#/action-7">
                             The World Of React 7
                           </a>
                         </h5>
                       </li>
-                      <li className="li">
-                        <h5 className="h5">
-                          <a className="a" href="#/action-8">
+                      <li className="navBarLI">
+                        <h5 className="navBarH5">
+                          <a className="navBarATag" href="#/action-8">
                             The World Of React 8
                           </a>
                         </h5>
@@ -99,30 +99,30 @@ class MyNavBar extends Component {
                   </Col>
                   <Col>
                     <ul>
-                      <li className="li">
-                        <h5 className="h5">
-                          <a className="a" href="#/action-9">
+                      <li className="navBarLI">
+                        <h5 className="navBarH5">
+                          <a className="navBarATag" href="#/action-9">
                             The World Of React 9
                           </a>
                         </h5>
                       </li>
-                      <li className="li">
-                        <h5 className="h5">
-                          <a className="a" href="#/action-10">
+                      <li className="navBarLI">
+                        <h5 className="navBarH5">
+                          <a className="navBarATag" href="#/action-10">
                             The World Of React 10
                           </a>
                         </h5>
                       </li>
-                      <li className="li">
-                        <h5 className="h5">
-                          <a className="a" href="#/action-11">
+                      <li className="navBarLI">
+                        <h5 className="navBarH5">
+                          <a className="navBarATag" href="#/action-11">
                             The World Of React 11
                           </a>
                         </h5>
                       </li>
-                      <li className="li">
-                        <h5 className="h5">
-                          <a className="a" href="#/action-12">
+                      <li className="navBarLI">
+                        <h5 className="navBarH5">
+                          <a className="navBarATag" href="#/action-12">
                             The World Of React 12
                           </a>
                         </h5>

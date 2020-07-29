@@ -4,7 +4,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Collapse from "react-bootstrap/Collapse";
-// import styles from "./MyNavBar.css";
 import "./MyNavBar.css";
 
 class MyNavBar extends Component {
@@ -29,6 +28,28 @@ class MyNavBar extends Component {
     return (
       <>
         <div className="navBarWrapper">
+          <Container>
+            <Row>
+              <Col>
+                <h3 className="navBarMyName">Jesse McKinney</h3>
+              </Col>
+              <Col>
+                <Button
+                  className={this.state.changeNavBar ? "change" : ""}
+                  id="collapsingNavBarButton"
+                  onClick={this.toggleCollapse}
+                  aria-controls="example-collapse-text"
+                  aria-expanded={this.state.open}
+                >
+                  <div id="menuIconContainer">
+                    <div className="bar1"></div>
+                    <div className="bar2"></div>
+                    <div className="bar3"></div>
+                  </div>
+                </Button>
+              </Col>
+            </Row>
+          </Container>
           <Container className="collapsingNavBarContainer">
             <Collapse in={this.state.open}>
               <div id="example-collapse-text" className="collapsingContent">
@@ -132,29 +153,6 @@ class MyNavBar extends Component {
                 </Row>
               </div>
             </Collapse>
-          </Container>
-
-          <Container>
-            <Row>
-              <Col>
-                <h3 className="navBarMyName">Jesse McKinney</h3>
-              </Col>
-              <Col>
-                <Button
-                  className={this.state.changeNavBar ? "change" : ""}
-                  id="collapsingNavBarButton"
-                  onClick={this.toggleCollapse}
-                  aria-controls="example-collapse-text"
-                  aria-expanded={this.state.open}
-                >
-                  <div id="menuIconContainer">
-                    <div className="bar1"></div>
-                    <div className="bar2"></div>
-                    <div className="bar3"></div>
-                  </div>
-                </Button>
-              </Col>
-            </Row>
           </Container>
         </div>
       </>

@@ -11,11 +11,11 @@ function App() {
       {/*Collapsing NavBar*/}
       <MyNavBar />
       {/*Collapsing NavBar*/}
-
+      <br />
       {/*Carousel*/}
       <MyCarousel />
       {/*Carousel*/}
-
+      <br />
       {/*Slider Footer*/}
       <MyFooter />
       {/*Slider Footer*/}

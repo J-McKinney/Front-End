@@ -1,8 +1,14 @@
 import React, { Component } from "react";
 import Swiper from "swiper";
+import hongkong from "../../images/hong-kong.jpg";
+import marsh from "../../images/marsh.jpg";
+import mountainrange from "../../images/mountain-range.jpg";
+import nightmoon from "../../images/night-moon.jpg";
+import paris from "../../images/paris.jpg";
+import rockybeach from "../../images/rocky-beach.jpg";
 ////////////CSS////////////
 //swiper css must come first
-import "swiper/css/swiper.min.css";
+import "swiper/css/swiper.min.css"; 
 // your custom css must come second to overwrite certain stylings in swiper.css
 import "./MyCarousel.css";
 
@@ -50,42 +56,42 @@ class MyCarousel extends Component {
             <div className="swiper-slide">
               <img
                 className="d-block w-100"
-                src={`images/hong-kong.jpg`}
+                src={hongkong}
                 alt="First slide"
               />
             </div>
             <div className="swiper-slide">
               <img
                 className="d-block w-100"
-                src={`images/marsh.jpg`}
+                src={marsh}
                 alt="Second slide"
               />
             </div>
             <div className="swiper-slide">
               <img
                 className="d-block w-100"
-                src={`images/mountain-range.jpg`}
+                src={mountainrange}
                 alt="Third slide"
               />
             </div>
             <div className="swiper-slide">
               <img
                 className="d-block w-100"
-                src={`images/night-moon.jpg`}
+                src={nightmoon}
                 alt="Fourth slide"
               />
             </div>
             <div className="swiper-slide">
               <img
                 className="d-block w-100"
-                src={`images/paris.jpg`}
+                src={paris}
                 alt="Fifth slide"
               />
             </div>
             <div className="swiper-slide">
               <img
                 className="d-block w-100"
-                src={`images/rocky-beach.jpg`}
+                src={rockybeach}
                 alt="Sixth slide"
               />
             </div>
